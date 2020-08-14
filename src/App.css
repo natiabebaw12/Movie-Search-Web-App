@@ -27,12 +27,45 @@ body {
   border-bottom: #000 solid 1px;
 }
 .logo {
-  margin-top: 20px;
+  margin-top: 0.2rem;
   width: 100px;
   height: 90px;
 }
 
 .title {
-  margin-top: 0px;
+  margin-top: 0;
   font-size: 4.4rem;
+}
+
+
+/* FORM TAG IN SEARCHMOVIE COMPONENT */
+.form {
+  margin-top: 30px;
+  display: grid;
+}
+.label {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 0.2rem 0 0.2rem 0;
+}
+.input {
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+.button {
+  color: #fff;
+  font-size: 1.6rem;
+  background-color:rgb(29, 28, 28);
+  padding: 1rem 2rem;
+  border: 1px solid rgb(29, 28, 28);
+  border-radius: 20px;
+  cursor: pointer;
+  transform: background-color 250ms;
+}
+.button:hover {
+  background-color: rgb(0, 0, 0);
 }
