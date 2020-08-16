@@ -17,7 +17,7 @@ function MovieCard({movie}) {
 				<p>
 					<small>RATING: {movie.vote_average}</small>
 				</p>
-				<p className="card--desc"><small>OVERVIEW:</small><br/>{movie.overview}</p>
+				<p className="card--desc"><small>OVERVIEW:</small><br /><br/>{movie.overview}</p>
 			</div>
             </div>
     )
