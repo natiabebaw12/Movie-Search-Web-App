@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
+import MovieCard from './MovieCard';
 
 const SearchMovie = () => {
-
 	//state - input query
 	const [query, setQuery] = useState('');
 	const [movies, setMovies] = useState([]);
@@ -38,6 +38,14 @@ const SearchMovie = () => {
 					Search
 				</button>
 			</form>
+
+			<div className="card-list">
+				{movies
+					.filter((movie) => movie.poster_path)
+					.map((movie) => (
+						<MovieCard movie={movie} key={movie.id} />
+					))}
+			</div>
 		</>
 	);
 };
