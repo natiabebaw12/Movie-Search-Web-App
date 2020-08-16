@@ -46,9 +46,10 @@ body {
 .label {
   font-size: 1.2rem;
   text-transform: uppercase;
-  margin: 0.2rem 0 0.2rem 0;
+  padding: 0.6rem 2rem;
 }
 .input {
+  font-style: italic;
   font-size: 1.6rem;
   padding: 0.5rem 2rem;
   line-height: 2.8rem;
